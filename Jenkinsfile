@@ -1,5 +1,5 @@
 
 node('maven-label'){
-stage('prepare'){
-  git "url"
+stage("Prepare"){
+ git "git@github.com:mylog-ist/aib.git"
 }
